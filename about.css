@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    background-color: rgb(16, 30, 94);
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  /* Company Info Styles */
+  .company-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .company-info h2 {
+    color: rgb(1, 1, 30);
+    font-size: 4rem;
+  }
+  
+  /* Reasons Section Styles */
+  .why-choose-us {
+    background-color: rgb(150, 174, 215);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .reason {
+    flex-basis: calc(50% - 20px);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .reason h3 {
+    color: rgb(10, 10, 77);
+  }
+  
+  /* Footer Styles */
+  .footers {
+    background-color: rgb(212, 212, 248);
+    padding: 20px;
+    color: rgb(22, 9, 77);
+    text-align: center;
+    clear: both;
+  }
+  
+  .footer-lines {
+    border-top: 1px solid white;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    .reason {
+      flex-basis: 100%;
+    }
+  
+    /* Decrease image size */
+    .company-info img {
+      max-width: 100%;
+    }
+  
+    /* Footer styles for mobile */
+    .footers {
+      position: relative;
+    }
+  }
+  
